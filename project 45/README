@@ -1,0 +1,49 @@
+# Digital Stop Watch
+
+## Description
+
+The Digital Stop Watch is a digital timing system designed using Verilog HDL to measure elapsed time.
+
+The system provides start/stop and reset controls and counts time in minutes and seconds.
+
+## Features
+
+* Start and stop time measurement
+* Reset functionality
+* Minute and second counters
+* Clock-based operation
+* Simple Verilog HDL design
+* Testbench included
+* Simulation waveform included
+
+## Technologies Used
+
+* Verilog HDL
+* Digital Logic Design
+* Sequential Logic
+* Simulation and Verification
+
+## Inputs
+
+| Signal       | Description                   |
+| ------------ | ----------------------------- |
+| `clk`        | System clock                  |
+| `reset`      | Resets the stopwatch          |
+| `start_stop` | Starts or stops the stopwatch |
+
+## Outputs
+
+| Signal    | Description                   |
+| --------- | ----------------------------- |
+| `seconds` | Displays seconds from 0 to 59 |
+| `minutes` | Displays minutes from 0 to 59 |
+
+## Working Principle
+
+1. The reset signal sets minutes and seconds to zero.
+2. When `start_stop` is HIGH, the stopwatch starts counting.
+3. The seconds counter increases with every clock cycle.
+4. After 59 seconds, the seconds counter returns to zero and the minutes counter increases.
+5. When `start_stop` is LOW, the stopwatch stops counting.
+6. The reset signal can be used to clear the stopwatch.
+

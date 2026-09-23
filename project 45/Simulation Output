@@ -1,0 +1,9 @@
+Time=0   | Start/Stop=0 | Minutes=0 | Seconds=0
+Time=10  | Start/Stop=1 | Minutes=0 | Seconds=1
+Time=20  | Start/Stop=1 | Minutes=0 | Seconds=2
+Time=30  | Start/Stop=1 | Minutes=0 | Seconds=3
+Time=40  | Start/Stop=1 | Minutes=0 | Seconds=4
+Time=50  | Start/Stop=1 | Minutes=0 | Seconds=5
+...
+Time=110 | Start/Stop=0 | Minutes=0 | Seconds=10
+Time=130 | Start/Stop=0 | Minutes=0 | Seconds=0
